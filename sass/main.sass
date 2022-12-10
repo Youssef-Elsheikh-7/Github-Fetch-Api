@@ -1,0 +1,102 @@
+body
+  font-family: 'Cairo', sans-serif
+  background-color: #222
+
+/* small */
+
+@media (min-width:768px)
+  .container
+    width: 750px
+
+/* medium */
+
+@media (min-width:992px)
+  .container
+    width: 970px
+
+/* large */
+
+@media (min-width:1200px)
+  .container
+    width: 1170px
+
+ul
+  list-style: none
+
+a
+  text-decoration: none
+
+img
+  max-width: 100%
+
+/* end global rulse */
+
+.container
+  padding-right: 15px
+  padding-left: 15px
+  margin-right: auto
+  margin-left: auto
+  display: flex
+  justify-content: center
+  align-items: center
+  padding-top: 60px
+
+.main-div
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  .input
+    width: 550px
+    width: 550px
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 10px
+    #user
+      width: 500px
+      padding: 10px
+      border-radius: 8px
+      border: 1px solid #222
+      &:focus
+        outline: none
+    #click
+      padding: 11px
+      color: white
+      background-color: #f44336
+      border-radius: 8px
+      border: none
+      margin-left: 5px
+  .parent
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    margin-bottom: 100px
+  .box
+    color: #fff
+    display: flex
+    justify-content: space-between
+    align-content: center
+    padding: 20px 5px
+    width: 550px
+    border-bottom: 1px solid #ddd
+  .stars
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 50px
+    .icon
+      color: #f2ca00
+
+.footer
+  background-color: #333
+  position: fixed
+  left: 0
+  bottom: 0
+  padding: 20px
+  width: 100%
+  text-align: center
+  color: white
+  font-size: 16px
+  box-shadow: 1px 12px 20px 0px #000
